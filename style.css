@@ -1,0 +1,94 @@
+.zag {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(162, 224, 91);
+}
+
+.zag1 {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(102, 38, 147);
+}
+
+head {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background-color: #FFFF;
+    height: 100%;
+}
+
+.block {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+.container {
+    width: 77.5%;
+    min-height: 619px;
+    /*background-color: black;*/
+    margin: 8% auto;
+    display: flex;
+    flex-direction: row;
+    gap: 1.9%;
+}
+
+.item > img {
+    width: 100%;
+    height: auto;
+}
+
+.item {
+    width: calc((100% - 3 * 1.9%) ) / 4;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.links {
+    background-color: black;
+    width: 43%;
+    height: 6.3%;
+}
+
+.name {
+    width: 100%;
+    height: 4.8%;
+    margin: 4.8% 0% 0.85%;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    vertical-align: middle;
+    text-transform: capitalize;
+    color: #2D3033;
+}
+
+.work {
+    width: 100%;
+    height: 3.4%;
+    margin: 0% 0% 3.2%;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #FF4343;
+}
+
+.description {
+    width: 100%;
+    height: 27.1%;
+    margin: 0% 0% 6.1%;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    vertical-align: middle;
+    color: #6C7279;
+}
